@@ -31,7 +31,7 @@ This script will:
 5. Store bounding boxes, scores, and visualization in the Output folder (patient output folder).  
 
 [![img-29.png](https://i.postimg.cc/LsCMjpPs/img-29.png)](https://postimg.cc/B8KyGRMW)
-[![](http://img.youtube.com/vi/--mDaNat03Y/0.jpg)](http://www.youtube.com/watch?v=--mDaNat03Y "RBCNet")
+### [4K Video Demo](http://www.youtube.com/watch?v=--mDaNat03Y "RBCNet")
 
 ### Project Collaborators and Contact
 
