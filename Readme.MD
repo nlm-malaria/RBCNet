@@ -3,7 +3,7 @@ Computer-assisted algorithms have become a mainstay of biomedical applications t
 We tested our method on an archived collection of human malaria smears with nearly 200,000 labeled cells across 965 images from 193 patients, acquired in Bangladesh, with each patient contributing five images. Cell detection accuracy using RBCNet was higher than 97%.
 The novel dual cascade RBCNet architecture provides more accurate cell detections because the foreground cell-cluster masks from U-Net adaptively guide the detection stage, resulting in a notably higher true positive and lower false alarm rates, compared to traditional and other deep learning methods. The RBCNet pipeline implements a crucial step towards automated malaria diagnosis. 
 
-[![img-29.png](https://i.postimg.cc/LsCMjpPs/img-29.png)](https://postimg.cc/B8KyGRMW)
+[![pipeline.png](https://i.postimg.cc/SxZcvCZV/pipeline.png)](https://postimg.cc/xXzkkJVb)
 
 # How to use CNV
 
@@ -29,6 +29,8 @@ This script will:
 3. Detect the cells for each cluster of blobs of the raw image corresponding to the segmented mask from U-Net using Faster R-CNN.  
 4. Filter out WBC. 
 5. Store bounding boxes, scores, and visualization in the Output folder (patient output folder).  
+
+[![img-29.png](https://i.postimg.cc/LsCMjpPs/img-29.png)](https://postimg.cc/B8KyGRMW)
 
 ### Project Collaborators and Contact
 
