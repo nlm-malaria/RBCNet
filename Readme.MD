@@ -32,8 +32,7 @@ This script will:
 
 [![img-29.png](https://i.postimg.cc/LsCMjpPs/img-29.png)](https://postimg.cc/B8KyGRMW)
 ### [Video Demo](http://www.youtube.com/watch?v=--mDaNat03Y "RBCNet")
-[![Mask RCNN on 4K Video](assets/4k_video.gif)](http://www.youtube.com/watch?v=--mDaNat03Y "RBCNet")
-[![Alt text for your video](https://img.youtube.com/vi/--mDaNat03Y "RBCNet"/0.jpg)](http://www.youtube.com/watch?v=--mDaNat03Y "RBCNet")
+
 
 ### Project Collaborators and Contact
 
