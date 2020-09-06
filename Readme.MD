@@ -1,5 +1,18 @@
+# RBCNet for cell detecton using  a  dual deep learning architecture
+Computer-assisted algorithms have become a mainstay of biomedical applications to improve accuracy and reproducibility of repetitive tasks like manual segmentation and annotation. We propose a novel pipeline for red blood cell detection and counting in thin blood smear microscopy images, named RBCNet, using a dual deep learning architecture. RBCNet consists of a  U-Net first stage for cell-cluster segmentation, followed by a second stage Faster R-CNN for detecting small cell objects within clusters, identified as connected components from the U-Net stage. RBCNet uses cell clustering instead of region proposals, which is robust to cell fragmentation, is highly scalable for detecting small objects or fine scale morphological structures in very large images, can be trained using non-overlapping tiles, and during inference is adaptive to the scale of cell-clusters with a low memory footprint.   
+We tested our method on an archived collection of human malaria smears with nearly 200,000 labeled cells across 965 images from 193 patients, acquired in Bangladesh, with each patient contributing five images. Cell detection accuracy using RBCNet was higher than 97%.
+The novel dual cascade RBCNet architecture provides more accurate cell detections because the foreground cell-cluster masks from U-Net adaptively guide the detection stage, resulting in a notably higher true positive and lower false alarm rates, compared to traditional and other deep learning methods. The RBCNet pipeline implements a crucial step towards automated malaria diagnosis. 
+
 [![img-29.png](https://i.postimg.cc/LsCMjpPs/img-29.png)](https://postimg.cc/B8KyGRMW)
-https://user-images.githubusercontent.com/16782894/92193000-42d2a580-ee35-11ea-911b-06a9337613a9.png
+
+# How to use CNV
+
+There are Three main folders in our repository:
+
+**Src:** contains the algorithm scripts.   
+**Data:** contains input images.   
+**Output:** contains results, intermediate results and some mat files that are needed by our algorithm.   
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                
 %  Author: Dr. Yasmin M. Kassim  
