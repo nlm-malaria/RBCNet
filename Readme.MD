@@ -9,31 +9,35 @@ The novel dual cascade RBCNet architecture provides more accurate cell detection
 
 There are Three main folders in our repository:
 
-**Src:** contains the algorithm scripts.   
+**Code:** contains the algorithm scripts.   
 **Data:** contains input images.   
-**Output:** contains results, intermediate results and some mat files that are needed by our algorithm.   
+**Output:** contains bounding box detections, scores, and visualization.   
+**Examples:** contains some images and video examples.   
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                
-%  Author: Dr. Yasmin M. Kassim  
-%  Corresponding Author: Dr. Stefan Jaeger
-%  Lister Hill National Center for Biomedical Communications,
-%  National Library of Medicine - National Institutes of Health
-%
-%  For more information, contact:
-%
-%      Dr. Yasmin M. Kassim 
-%      Location:  38A / B1N-28N
-%      Phone Number: (301) 827-4730
-%      E-mail: yasmin.kassim@nih.gov
-% or
-%      Dr. Stefan Jaeger
-%      Location:  38A / 10N1003O
-%      Phone Number: (301) 435-3198
-%      E-mail: stefan.jaeger@nih.gov
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+### Project Collaborators and Contact
+
+**Author:** Yasmin M. Kassim 
+**Corresponding Author:** Dr. Stefan Jaeger
+
+Copyright &copy; 2019-2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
+
+**Created by:** Dr. Yasmin Kassim  
+Lister Hill National Center for Biomedical Communications,
+National Library of Medicine - National Institutes of Health
+
+For more information, contact:
+
+* **Dr. Yasmin Kassim**  
+Location:  38A / B1N-28N  
+Phone Number: (301) 827-4730  
+E-mail: yasmin.kassim@nih.gov  
+
+
+* **Dr. Stefan Jaeger**  
+Location:  38A / 10N1003O  
+Phone Number: (301) 435-3198  
+E-mail: stefan.jaeger@nih.gov
+
 %  Program Name: RBCNet_RunMe.m
 %  Inputs:  Malaria images should be placed in the Data folder (patient input folder)
 %           Ex: .\Data\234C92P53ThinF\Img\IMG_20150821_150457.png
