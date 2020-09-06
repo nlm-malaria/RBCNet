@@ -14,15 +14,30 @@ There are Three main folders in our repository:
 **Output:** contains bounding box detections, scores, and visualization.   
 **Examples:** contains some images and video examples.   
 
+
+## How it works :  
+
+1. Malaria images should be placed in the Data folder (patient input folder):
+
+``` Ex: .\Data\234C92P53ThinF\Img\IMG_20150821_150457.png```
+
+2. Run ```RBCNet_RunMe.m```
+
+This script will:
+1. Load learning models (U-Net + Faster R-CNN).  
+2. Produce segmentation mask using U-Net.  
+3. Detect the cells for each cluster of blobs of the raw image corresponding to the segmented mask from U-Net using Faster R-CNN.  
+4. Filter out WBC. 
+5. Store bounding boxes, scores, and visualization in the Output folder (patient output folder).  
+
 ### Project Collaborators and Contact
 
-**Author:** Yasmin M. Kassim 
+**Author:** Dr. Yasmin M. Kassim    
 **Corresponding Author:** Dr. Stefan Jaeger
 
-Copyright &copy; 2019-2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
 **Created by:** Dr. Yasmin Kassim  
-Lister Hill National Center for Biomedical Communications,
+Lister Hill National Center for Biomedical Communications,  
 National Library of Medicine - National Institutes of Health
 
 For more information, contact:
@@ -38,17 +53,4 @@ Location:  38A / 10N1003O
 Phone Number: (301) 435-3198  
 E-mail: stefan.jaeger@nih.gov
 
-%  Program Name: RBCNet_RunMe.m
-%  Inputs:  Malaria images should be placed in the Data folder (patient input folder)
-%           Ex: .\Data\234C92P53ThinF\Img\IMG_20150821_150457.png
-%           
-%  Procedure: 1. Load learning models (U-Net + Faster R-CNN)
-%             2. Produce segmentation mask using U-Net
-%             3. Detect the cells for each cluster of blobs of the
-%             raw image corresponding to the segmented mask from U-Net using Faster R-CNN
-%             4. Filter out WBC
-%        
-%  Outputs:   Store bounding boxes, scores, and visualization in the
-%             Output folder (patient output folder)
-%        
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
