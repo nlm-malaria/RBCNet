@@ -1,8 +1,4 @@
-TEMPLATE LICENSE AGREEMENT TERMS & CONDITIONS FOR NLM-DEVELOPED OPEN SOURCE SOFTWARE
 
-Internal NLM Reference Notes About this Template:
-This template is an open-source BSD license. It allows use in both commercial and non-commercial products. The use of this license agreement template was reviewed and approved in October 2019 by the NIH/HHS Office of General Counsel (Dale Berkley & Chris Hammond), and key NLM personnel including the Deputy Director (Jerry Sheehan), the Assistant Director for Policy Development (Dina Paltoo), the Technology Development Coordinator (Rebecca Goodwin), and the Associate Director for Data Science, Open Science, & Strategic Initiatives (Mike Huerta). This version is now used for MetaMap and MetaMap Tools. An earlier version of this agreement was used for the “Boundary Marking Tool (BMT).” BMT was developed under contract funded by the National Library of Medicine in collaboration with the National Cancer Institute. As in that agreement, template language will need to be slightly modified in first paragraph and third bullet if the software tool is developed in collaboration with others (e.g. another IC), or as part of a contract.
-***********************************
 Informational Notice: 
 This software, the “INSERT NAME OF SOFTWARE TOOL INCLUDING ACRONYM IF RELEVANT”, was developed and funded by the National Library of Medicine, part of the National Institutes of Health, and agency of the United States Department of Health and Human Services,  which is making the software available to the public for any commercial or non-commercial purpose under the following open-source BSD license. 
 LICENSE: 
