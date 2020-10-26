@@ -5,12 +5,13 @@ The novel dual cascade RBCNet architecture provides more accurate cell detection
 
 [![pipeline.png](https://i.postimg.cc/SxZcvCZV/pipeline.png)](https://postimg.cc/xXzkkJVb)
 
-# How to use CNV
+# How to use RBCNet
 
 There are Three main folders in our repository:
 
 **Code:** contains the algorithm scripts.   
-**Data:** contains input images.   
+**Data:** contains examples for some input images. We publish
+          the data here: ftp://lhcftp.nlm.nih.gov/Open-Access-Datasets/Malaria/NIH-NLM-ThinBloodSmearsPf/  
 **Output:** contains bounding box detections, scores, and visualization.   
 **Examples:** contains some images and video examples.   
 
