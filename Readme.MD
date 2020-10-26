@@ -11,7 +11,7 @@ There are Three main folders in our repository:
 
 **Code:** contains the algorithm scripts.   
 **Data:** contains examples for some input images. We publish
-          the data here: ftp://lhcftp.nlm.nih.gov/Open-Access-Datasets/Malaria/NIH-NLM-ThinBloodSmearsPf/  
+          the data here: [![NIH-NLM-ThinBloodSmearsPf](ftp://lhcftp.nlm.nih.gov/Open-Access-Datasets/Malaria/NIH-NLM-ThinBloodSmearsPf/)  
 **Output:** contains bounding box detections, scores, and visualization.   
 **Examples:** contains some images and video examples.   
 
