@@ -34,7 +34,15 @@ This script will:
 [![img-29.png](https://i.postimg.cc/LsCMjpPs/img-29.png)](https://postimg.cc/B8KyGRMW)
 ### [Video Demo](http://www.youtube.com/watch?v=--mDaNat03Y "RBCNet")
 
-
+### Citation
+```
+@article{kassim2020clustering,
+  title={Clustering-Based Dual Deep Learning Architecture for Detecting Red Blood Cells in Malaria Diagnostic Smears.},
+  author={Kassim, Yasmin M and Palaniappan, Kannappan and Yang, Feng and Poostchi, Mahdieh and Palaniappan, Nila and Maude, Richard J and Antani, Sameer and Jaeger, Stefan},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2020}
+}
+```
 ### Project Collaborators and Contact
 
 **Author:** Dr. Yasmin M. Kassim    
