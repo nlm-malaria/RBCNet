@@ -22,7 +22,7 @@ There are Three main folders in our repository:
 
 ``` Ex: .\Data\234C92P53ThinF\Img\IMG_20150821_150457.png```
 
-2. Download U-Net trained model using this link (https://mailmissouri-my.sharepoint.com/:u:/g/personal/ymkgz8_umsystem_edu/EYnYpry4D_tCgMFeJasv_OIBIu-D-dGHfJL7A3WkJ1_efA?e=alokDy)
+2. Download the U-Net trained model using this link (https://mailmissouri-my.sharepoint.com/:u:/g/personal/ymkgz8_umsystem_edu/EYnYpry4D_tCgMFeJasv_OIBIu-D-dGHfJL7A3WkJ1_efA?e=alokDy) and put it inside .\Code\Scripts\
 
 3. Run ```RBCNet_RunMe.m```
 
