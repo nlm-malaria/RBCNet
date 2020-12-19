@@ -22,7 +22,9 @@ There are Three main folders in our repository:
 
 ``` Ex: .\Data\234C92P53ThinF\Img\IMG_20150821_150457.png```
 
-2. Run ```RBCNet_RunMe.m```
+2. Download U-Net trained model using this link (https://mailmissouri-my.sharepoint.com/:u:/g/personal/ymkgz8_umsystem_edu/EYnYpry4D_tCgMFeJasv_OIBIu-D-dGHfJL7A3WkJ1_efA?e=alokDy)
+
+3. Run ```RBCNet_RunMe.m```
 
 This script will:
 1. Load learning models (U-Net + Faster R-CNN).  
